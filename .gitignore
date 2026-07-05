@@ -1,0 +1,13 @@
+/*
+
+# auto generated types
+!/.probe
+
+# dev workspace specific files
+!/.vscode
+!.gitignore
+!mise.toml
+!ferium.json
+
+# custom scripts
+!/kubejs

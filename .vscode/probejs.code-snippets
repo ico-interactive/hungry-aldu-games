@@ -1,0 +1,77 @@
+{
+    "priority": {
+        "prefix": [
+            "#priority"
+        ],
+        "body": [
+            "// priority: ${0:0}"
+        ],
+        "description": "Creates the file header for `priority`."
+    },
+    "packmode": {
+        "prefix": [
+            "#packmode"
+        ],
+        "body": [
+            "// packmode: $0"
+        ],
+        "description": "Creates the file header for `packmode`."
+    },
+    "ignored": {
+        "prefix": [
+            "#ignored"
+        ],
+        "body": [
+            "// ignored: ${1|true,false|}$0"
+        ],
+        "description": "Creates the file header for `ignored`."
+    },
+    "requires": {
+        "prefix": [
+            "#requires"
+        ],
+        "body": [
+            "// requires: ${1|minecraft,create_radar,rhino,kubejs,createbigcannons,veil,simulated,betteradvancedtooltips,ponder,jei,sable,aeronautics,aeronautics_bundled,probejs,sablecompanion,flywheel,create,offroad,ritchiesprojectilelib,neoforge|}$0"
+        ],
+        "description": "Creates the file header for `requires`."
+    },
+    "uuid": {
+        "prefix": [
+            "uuid"
+        ],
+        "body": [
+            "\"$UUID\"$0"
+        ],
+        "description": "Generates a random version 4 UUID."
+    },
+    "recipes": {
+        "prefix": [
+            "recipes"
+        ],
+        "body": [
+            "ServerEvents.recipes(event => {",
+            "    const { $1 } = event.recipes",
+            "    $0",
+            "})"
+        ],
+        "description": "Creates a recipe event listener."
+    },
+    "itemstack": {
+        "prefix": [
+            "itemstack"
+        ],
+        "body": [
+            "\"${1:1}x \"$0"
+        ],
+        "description": "Creates a `nx item string."
+    },
+    "recipe_id": {
+        "prefix": [
+            "recipe_id"
+        ],
+        "body": [
+            "\"${1||}\"$0"
+        ],
+        "description": "Insert a recipe ID"
+    }
+}

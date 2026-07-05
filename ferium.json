@@ -1,0 +1,152 @@
+{
+  "profiles": [
+    {
+      "name": "client",
+      "output_dir": "mods",
+      "game_version": "1.21.1",
+      "mod_loader": "NeoForge",
+      "mods": [
+        {
+          "name": "Create",
+          "identifier": {
+            "ModrinthProject": "LNytGWDc"
+          }
+        },
+        {
+          "name": "Create Aeronautics",
+          "identifier": {
+            "ModrinthProject": "oWaK0Q19"
+          }
+        },
+        {
+          "name": "Create Big Cannons",
+          "identifier": {
+            "ModrinthProject": "GWp4jCJj"
+          }
+        },
+        {
+          "name": "Create: Radars",
+          "identifier": {
+            "ModrinthProject": "BLu2Yqfq"
+          }
+        },
+        {
+          "name": "Figura",
+          "identifier": {
+            "ModrinthProject": "s9gIPDom"
+          }
+        },
+        {
+          "name": "Just Enough Items (JEI)",
+          "identifier": {
+            "ModrinthProject": "u6dRKJwZ"
+          }
+        },
+        {
+          "name": "KubeJS",
+          "identifier": {
+            "ModrinthProject": "umyGl7zF"
+          }
+        },
+        {
+          "name": "ProbeJS",
+          "identifier": {
+            "ModrinthProject": "JJNYRb4B"
+          }
+        },
+        {
+          "name": "Rhino",
+          "identifier": {
+            "ModrinthProject": "sk9knFPE"
+          }
+        },
+        {
+          "name": "Ritchie's Projectile Library",
+          "identifier": {
+            "ModrinthProject": "B3pb093D"
+          }
+        },
+        {
+          "name": "Sable",
+          "identifier": {
+            "ModrinthProject": "T9PomCSv"
+          }
+        }
+      ]
+    },
+    {
+      "name": "server",
+      "output_dir": "server/mods",
+      "game_version": "1.21.1",
+      "mod_loader": "NeoForge",
+      "mods": [
+        {
+          "name": "Create",
+          "identifier": {
+            "ModrinthProject": "LNytGWDc"
+          }
+        },
+        {
+          "name": "Create Aeronautics",
+          "identifier": {
+            "ModrinthProject": "oWaK0Q19"
+          }
+        },
+        {
+          "name": "Create Big Cannons",
+          "identifier": {
+            "ModrinthProject": "GWp4jCJj"
+          }
+        },
+        {
+          "name": "Create: Radars",
+          "identifier": {
+            "ModrinthProject": "BLu2Yqfq"
+          }
+        },
+        {
+          "name": "Figura",
+          "identifier": {
+            "ModrinthProject": "s9gIPDom"
+          }
+        },
+        {
+          "name": "Just Enough Items (JEI)",
+          "identifier": {
+            "ModrinthProject": "u6dRKJwZ"
+          }
+        },
+        {
+          "name": "KubeJS",
+          "identifier": {
+            "ModrinthProject": "umyGl7zF"
+          }
+        },
+        {
+          "name": "ProbeJS",
+          "identifier": {
+            "ModrinthProject": "JJNYRb4B"
+          }
+        },
+        {
+          "name": "Rhino",
+          "identifier": {
+            "ModrinthProject": "sk9knFPE"
+          }
+        },
+        {
+          "name": "Ritchie's Projectile Library",
+          "identifier": {
+            "ModrinthProject": "B3pb093D"
+          }
+        },
+        {
+          "name": "Sable",
+          "identifier": {
+            "ModrinthProject": "T9PomCSv"
+          }
+        }
+      ]
+    }
+  ]
+}
