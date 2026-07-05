@@ -53,9 +53,9 @@ ServerEvents.commandRegistry((event) => {
           const position = player.getPosition(1).relative("down", 1);
           const level = server.getLevel("minecraft:overworld");
           const block = level.getBlock(
-            Math.round(position.x()),
+            Math.floor(position.x()),
             Math.round(position.y()),
-            Math.round(position.z()),
+            Math.floor(position.z()),
           );
           //gets team from block id sends player to team list
           const toTeam = teams.get(String(block.id));
