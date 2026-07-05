@@ -25,15 +25,21 @@
           }
         },
         {
+          "name": "Create: Aeroworks",
+          "identifier": {
+            "ModrinthProject": "P26k79kP"
+          }
+        },
+        {
           "name": "Create: Radars",
           "identifier": {
             "ModrinthProject": "BLu2Yqfq"
           }
         },
         {
-          "name": "Figura",
+          "name": "FramedBlocks",
           "identifier": {
-            "ModrinthProject": "s9gIPDom"
+            "ModrinthProject": "wbgfS34j"
           }
         },
         {
@@ -46,6 +52,18 @@
           "name": "KubeJS",
           "identifier": {
             "ModrinthProject": "umyGl7zF"
+          }
+        },
+        {
+          "name": "KubeJS Additions",
+          "identifier": {
+            "ModrinthProject": "BZemjxZb"
+          }
+        },
+        {
+          "name": "KubeJS Create",
+          "identifier": {
+            "ModrinthProject": "T38eAZQC"
           }
         },
         {
