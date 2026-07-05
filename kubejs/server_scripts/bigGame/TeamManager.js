@@ -35,7 +35,7 @@ ServerEvents.commandRegistry(event => {
     event.register(
         Commands.literal("start").executes(ctx => {
             const server = ctx.source.server
-            global.GameState.set(global.GameState.STATES.START, server)
+            global.currentState = "start"
 
             //resets teamlist  
             for (const key of teamList.keys()) {
@@ -75,11 +75,13 @@ ServerEvents.commandRegistry(event => {
                         player.teleportTo(spawn[0], spawn[1], spawn[2])
                     }
                     // changin states to building
-                    global.GameState.set(global.GameState.STATES.BUILDING, ctx.source.server)
+                    server.players.forEach(p => {
+                        server.runCommand(`/gamemode creative ${p.username}`)
+                    })
 
-                   
-                        
-                    
+
+
+
                 })
             })
 
