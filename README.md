@@ -1,5 +1,7 @@
 # the hungry aldu games
 
+![Static Badge](https://img.shields.io/badge/noob-orange?style=flat-square&label=javascript&color=orange)
+
 this repository hosts kubejs scripts for an event
 
 ## setup

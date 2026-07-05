@@ -1,0 +1,64 @@
+import { $BlockAndTintGetter, $ChunkPos, $ClipContext, $ColorResolver_, $ClipBlockStateContext, $LightLayer_ } from "@package/net/minecraft/world/level";
+import { $FluidState } from "@package/net/minecraft/world/level/material";
+import { $Biome } from "@package/net/minecraft/world/level/biome";
+import { $VoxelShape } from "@package/net/minecraft/world/phys/shapes";
+import { $LevelLightEngine } from "@package/net/minecraft/world/level/lighting";
+import { $ModelData } from "@package/net/neoforged/neoforge/client/model/data";
+import { $Supplier_ } from "@package/java/util/function";
+import { $BlockPos_, $Direction_, $Holder } from "@package/net/minecraft/core";
+import { $Stream } from "@package/java/util/stream";
+import { $BlockState_, $BlockState } from "@package/net/minecraft/world/level/block/state";
+import { $Object } from "@package/java/lang";
+import { $AuxiliaryLightManager } from "@package/net/neoforged/neoforge/common/world";
+import { $Vec3_, $AABB_, $BlockHitResult } from "@package/net/minecraft/world/phys";
+import { $BlockEntityType_, $BlockEntity } from "@package/net/minecraft/world/level/block/entity";
+
+declare module "@package/com/simibubi/create/foundation/utility/worldWrappers" {
+    export class $WrappedBlockAndTintGetter implements $BlockAndTintGetter {
+        getHeight(): number;
+        getModelData(arg0: $BlockPos_): $ModelData;
+        getLightEngine(): $LevelLightEngine;
+        getBlockTint(arg0: $BlockPos_, arg1: $ColorResolver_): number;
+        getShade(arg0: $Direction_, arg1: boolean): number;
+        getBlockState(arg0: $BlockPos_): $BlockState;
+        getMinBuildHeight(): number;
+        getFluidState(arg0: $BlockPos_): $FluidState;
+        getBlockEntity(arg0: $BlockPos_): $BlockEntity;
+        getRawBrightness(arg0: $BlockPos_, arg1: number): number;
+        getBrightness(arg0: $LightLayer_, arg1: $BlockPos_): number;
+        canSeeSky(arg0: $BlockPos_): boolean;
+        isBlockInLine(arg0: $ClipBlockStateContext): $BlockHitResult;
+        getBlockFloorHeight(arg0: $BlockPos_): number;
+        getBlockFloorHeight(arg0: $VoxelShape, arg1: $Supplier_<$VoxelShape>): number;
+        getBlockStates(arg0: $AABB_): $Stream<$BlockState>;
+        getLightEmission(arg0: $BlockPos_): number;
+        getMaxLightLevel(): number;
+        clip(arg0: $ClipContext): $BlockHitResult;
+        clipWithInteractionOverride(arg0: $Vec3_, arg1: $Vec3_, arg2: $BlockPos_, arg3: $VoxelShape, arg4: $BlockState_): $BlockHitResult;
+        getBlockEntity<T extends $BlockEntity>(arg0: $BlockPos_, arg1: $BlockEntityType_<T>): (T) | undefined;
+        getShade(arg0: number, arg1: number, arg2: number, arg3: boolean): number;
+        getSectionIndex(arg0: number): number;
+        getMinSection(): number;
+        getMaxSection(): number;
+        getSectionsCount(): number;
+        isOutsideBuildHeight(arg0: $BlockPos_): boolean;
+        isOutsideBuildHeight(arg0: number): boolean;
+        getMaxBuildHeight(): number;
+        getSectionYFromSectionIndex(arg0: number): number;
+        getSectionIndexFromSectionY(arg0: number): number;
+        getAuxLightManager(arg0: $ChunkPos): $AuxiliaryLightManager;
+        getAuxLightManager(arg0: $BlockPos_): $AuxiliaryLightManager;
+        getBiomeFabric(arg0: $BlockPos_): $Holder<$Biome>;
+        getBlockEntityRenderData(arg0: $BlockPos_): $Object;
+        hasBiomes(): boolean;
+        constructor(arg0: $BlockAndTintGetter);
+        get height(): number;
+        get lightEngine(): $LevelLightEngine;
+        get minBuildHeight(): number;
+        get maxLightLevel(): number;
+        get minSection(): number;
+        get maxSection(): number;
+        get sectionsCount(): number;
+        get maxBuildHeight(): number;
+    }
+}
