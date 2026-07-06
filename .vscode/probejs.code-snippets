@@ -31,7 +31,7 @@
             "#requires"
         ],
         "body": [
-            "// requires: ${1|minecraft,create_radar,rhino,kubejs,createbigcannons,veil,simulated,betteradvancedtooltips,ponder,jei,sable,aeronautics,aeronautics_bundled,probejs,sablecompanion,flywheel,create,offroad,ritchiesprojectilelib,neoforge|}$0"
+            "// requires: ${1|minecraft,rhino,kubejs,createbigcannons,ftblibrary,ponder,jei,sable,aeronautics,aeronautics_bundled,javd,kubejsadditions,sablecompanion,flywheel,create,ritchiesprojectilelib,neoforge,ftbteambases,framedblocks,create_radar,veil,simulated,worldedit,kubejs_create,betteradvancedtooltips,architectury,probejs,ftbteams,aeroworks,trenzalore,offroad|}$0"
         ],
         "description": "Creates the file header for `requires`."
     },

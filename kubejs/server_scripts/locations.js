@@ -8,7 +8,7 @@
  */
 
 /** @type {{Location}} */
-const lobbyLocation = { level: "javd:void", x: 7025.5, y: 126, z: -2955.5 };
+const lobbyLocation = { level: "javd:void", x: 7025.5, y: 125, z: -2955.5 };
 
 /** @type {{string, Location}} */
 const teamLocations = {
