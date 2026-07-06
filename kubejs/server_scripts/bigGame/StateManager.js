@@ -1,5 +1,3 @@
-const lobbyspawn = { x: 7025, y: 226, z: -2951 };
-
 //lobby command + should be ran back after ending
 ServerEvents.commandRegistry((event) => {
   const { commands: Commands } = event;
@@ -9,11 +7,17 @@ ServerEvents.commandRegistry((event) => {
       .executes((ctx) => {
         console.log("LOBBY COMMAND EXECUTED");
         const server = ctx.source.server;
-        const lobby = global.lobby;
 
         setPlayersToGamemode(server, "adventure");
         server.players.forEach((player) => {
-          player.teleportTo(lobbyspawn.x, lobbyspawn.y, lobbyspawn.z);
+          player.teleportToLevel(
+            server.getLevel(lobbyLocation.level),
+            lobbyLocation.x,
+            lobbyLocation.y,
+            lobbyLocation.z,
+            180,
+            0,
+          );
         });
 
         server.tell("game reset");

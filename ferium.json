@@ -1,5 +1,4 @@
 {
-  "active_profile": 1,
   "profiles": [
     {
       "name": "client",
@@ -41,6 +40,12 @@
           "name": "FramedBlocks",
           "identifier": {
             "ModrinthProject": "wbgfS34j"
+          }
+        },
+        {
+          "name": "Just Another Void Dimension",
+          "identifier": {
+            "CurseForgeProject": 370890
           }
         },
         {
@@ -89,6 +94,18 @@
           "name": "Sable",
           "identifier": {
             "ModrinthProject": "T9PomCSv"
+          }
+        },
+        {
+          "name": "Trenzalore",
+          "identifier": {
+            "CurseForgeProject": 870210
+          }
+        },
+        {
+          "name": "WorldEdit",
+          "identifier": {
+            "ModrinthProject": "1u6JkXh5"
           }
         }
       ]
@@ -136,6 +153,12 @@
           }
         },
         {
+          "name": "Just Another Void Dimension",
+          "identifier": {
+            "CurseForgeProject": 370890
+          }
+        },
+        {
           "name": "Just Enough Items (JEI)",
           "identifier": {
             "ModrinthProject": "u6dRKJwZ"
@@ -181,6 +204,18 @@
           "name": "Sable",
           "identifier": {
             "ModrinthProject": "T9PomCSv"
+          }
+        },
+        {
+          "name": "Trenzalore",
+          "identifier": {
+            "CurseForgeProject": 870210
+          }
+        },
+        {
+          "name": "WorldEdit",
+          "identifier": {
+            "ModrinthProject": "1u6JkXh5"
           }
         }
       ]

@@ -1,10 +1,11 @@
 /*
 
 # auto generated types
-!/.probe
+# !/.probe
 
 # dev workspace specific files
 !/.vscode
+!/schematics
 !.gitignore
 !mise.toml
 !ferium.json
